@@ -5,13 +5,13 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <section>
-            <div className="md:mt-5 xl:mt-20 px-7 md:px-20 py-12 md:py-14 2xl:px-[40rem] cursor-pointer" >
+            <div className="md:mt-5 xl:mt-20 px-7 md:px-20 py-12 md:py-14 2xl:px-[10rem] cursor-pointer" >
                 <h1 className='font-extrabold text-3xl md:text-[4rem] hover:text-bosch_blue leading-3 inline-flex'>
                     Live #LikeABosch 
                     <ExternalLink className='md::h-12 md:w-12 -mt-4'/>
                 </h1>
             </div>
-            <div className='flex flex-col gap-6 md:gap-0 md:grid md:grid-cols-2 xl:grid-cols-3 2xl:px-[40rem]'>
+            <div className='flex flex-col gap-6 md:gap-0 md:grid md:grid-cols-2 xl:grid-cols-3 2xl:px-[10rem]'>
                 <Image 
                     alt='bosch-hero-section' 
                     src={'https://www.bosch.com.vn/media/like_a_bosch/20230508_live_likeabosch/07_live_likeabosch_teaser_1920x1080_res_992x558.webp'} 

@@ -13,7 +13,7 @@ import BackToTopBtn from '../back-to-top-btn';
 const Footer = () => {
     return (<>
 
-        <footer className="bg-gray-800 text-white py-8 md:py-12 px-8 md:px-20 xl:px-[40rem]">
+        <footer className="bg-gray-800 text-white py-8 md:py-12 px-8 md:px-20 xl:px-[10rem]">
             {/* Top section with logo and social icons */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
                 <div>

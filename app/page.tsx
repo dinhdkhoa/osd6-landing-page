@@ -41,13 +41,13 @@ export default function Home() {
         <div className="mb-10">
           <HeroSection />
         </div>
-        <div className="px-4 md:px-6 xl:px-20 2xl:px-[40rem] py-0 md:py-2 xl:py-20">
+        <div className="px-4 md:px-6 xl:px-20 2xl:px-[10rem] py-0 md:py-2 xl:py-20">
           <OurSolutions />
         </div>
-        <div className="px-4 md:px-6 lg:px-20 2xl:px-[40rem]  md:py-2 lg:py-20">
+        <div className="px-4 md:px-6 lg:px-20 2xl:px-[10rem]  md:py-2 lg:py-20">
           <OurStories />
         </div>
-        <div className="px-4 md:px-6 lg:px-20 2xl:px-[40rem] md:py-10">
+        <div className="px-4 md:px-6 lg:px-20 2xl:px-[10rem] md:py-10">
           <News />
         </div>
         <ContactSection />
