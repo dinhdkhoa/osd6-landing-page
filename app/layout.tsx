@@ -75,6 +75,43 @@ export default function RootLayout({
         <link rel="preconnect" href="https://dock.ui.bosch.tech/" />
         <link rel="preconnect" href="https://assets.bosch.com" />
         
+        {/* Manifest for PWA */}
+        <link rel="manifest" href="/manifest.json" />
+        
+        {/* Humans.txt */}
+        <link rel="author" href="/humans.txt" />
+        
+        {/* Preload fonts */}
+        <link rel="preload" href="/fonts/boschsans_regular.woff2" as="font" type="font/woff2" crossOrigin="" />
+        <link rel="preload" href="/fonts/boschsans_bold.woff2" as="font" type="font/woff2" crossOrigin="" />
+        
+        {/* Schema.org JSON-LD */}
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Bosch Vietnam",
+              "legalName": "Robert Bosch Engineering and Business Solutions Vietnam Co., Ltd.",
+              "url": "https://www.bosch.com.vn/",
+              "logo": "https://assets.bosch.com/media/global/bosch_logo_res_260x85.webp",
+              "description": "Bosch là nhà cung cấp hàng đầu về công nghệ và dịch vụ trên toàn cầu. Chúng tôi tạo ra công nghệ có ích cho cuộc sống.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "VN",
+                "addressLocality": "Ho Chi Minh City",
+                "streetAddress": "Bitexco Financial Tower, Level 12A, 2 Hai Trieu Street, District 1"
+              },
+              "sameAs": [
+                "https://www.facebook.com/OfficialBoschVietnam",
+                "https://www.linkedin.com/company/bosch",
+                "https://twitter.com/BoschGlobal"
+              ]
+            })
+          }}
+        />
+        
         {/* Preload fonts */}
         <link rel="preload" href="/fonts/boschsans_regular.woff2" as="font" type="font/woff2" crossOrigin="" />
         <link rel="preload" href="/fonts/boschsans_bold.woff2" as="font" type="font/woff2" crossOrigin="" />

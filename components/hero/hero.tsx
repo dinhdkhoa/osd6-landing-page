@@ -5,7 +5,7 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <section>
-            <div className="md:mt-5 xl:mt-20 px-7 md:px-20 py-12 md:py-14 2xl:px-[45rem] cursor-pointer" >
+            <div className="md:mt-5 xl:mt-20 px-7 md:px-20 py-12 md:py-14 2xl:px-[40rem] cursor-pointer" >
                 <h1 className='font-extrabold text-3xl md:text-[4rem] hover:text-bosch_blue leading-3 inline-flex'>
                     Live #LikeABosch 
                     <ExternalLink className='md::h-12 md:w-12 -mt-4'/>

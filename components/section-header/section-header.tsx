@@ -1,13 +1,23 @@
 import { cn } from '@/lib/utils'
 import React, { ReactNode } from 'react'
 
-const SectionHeader = ({ children, className }: {children: ReactNode, className?: string}) => {
+interface SectionHeaderProps {
+    children: ReactNode;
+    className?: string;
+    id?: string;
+}
+
+const SectionHeader = ({ children, className, id }: SectionHeaderProps) => {
     return (
-        <h2 className={cn(
+        <h2 
+            id={id}
+            className={cn(
                 "font-semibold text-2xl md:text-4xl tracking-wide",
                 className
-              )}>{children}</h2>
-
+              )}
+        >
+            {children}
+        </h2>
     )
 }
 
