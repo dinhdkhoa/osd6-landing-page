@@ -5,10 +5,10 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <section>
-            <div className="cursor-pointer px-7 py-12  md:px-20 md:py-14 2xl:px-96 3xl:px-[40rem]" >
-                <h1 className='inline-flex text-3xl font-extrabold leading-3 hover:text-bosch_blue md:text-[3.5rem]'>
+            <div className="cursor-pointer px-7 py-12 md:mt-5 md:px-20 md:py-14 xl:mt-20 2xl:px-96 3xl:px-[40rem]" >
+                <h1 className='inline-flex text-3xl font-extrabold leading-3 hover:text-bosch_blue md:text-[4rem]'>
                     GS/OSD3 & GS/OSD6 Vietnam
-                    {/* <ExternalLink className='md::h-12 -mt-4 md:w-12' /> */}
+                    <ExternalLink className='md::h-12 -mt-4 md:w-12' />
                 </h1>
             </div>
             <div className='flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-0 lg:grid-cols-4 lg:pr-10 xl:grid-cols-12 xl:gap-8 xl:pr-0 2xl:px-48 3xl:px-96'>
