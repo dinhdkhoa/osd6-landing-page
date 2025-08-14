@@ -39,7 +39,7 @@ const OurSolutions = () => {
     
     return (
         <section className='flex flex-col gap-10 lg:gap-20' aria-labelledby="solutions-heading">
-            <SectionHeader id="solutions-heading">Khám phá các giải pháp của chúng tôi</SectionHeader>
+            <SectionHeader id="solutions-heading">Highlight of the month</SectionHeader>
             <div className='flex flex-col gap-12 lg:gap-20'>
                 {Mock.Solutions.map((sol, i) => <Solution key={i} {...sol}/>)}
             </div>

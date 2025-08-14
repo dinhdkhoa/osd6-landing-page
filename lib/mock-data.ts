@@ -9,48 +9,48 @@ const Solutions: SolutionProps[] = [
     description:
       "Là một thành viên của tập đoàn Bosch, Công ty TNHH Đồ Gia Dụng BSH (Việt Nam) phân phối chính hãng các thiết bị gia dụng chất lượng cao với công nghệ Chuẩn chất Đức. Mỗi sản phẩm của chúng tôi trước khi rời khỏi nhà máy đều được thử nghiệm và kiểm tra kỹ lưỡng, vì vậy người tiêu dùng có thể hoàn toàn tin tưởng về chất lượng cho cuộc sống hàng ngày."
   },
-  {
-    img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/automotive_aftermarket_res_640x360.webp",
-    title: "Phụ tùng và Thiết bị Ô tô",
-    description:
-      "Bosch Mobility Aftermarket cung cấp cho các đơn vị sửa chữa và kinh doanh phụ tùng thay thế những giải pháp liên quan đến quy trình xưởng, chẩn đoán và sửa chữa, cũng như nhiều loại phụ tùng thay thế cho các phương tiện vận tải – từ phụ tùng mới, phụ tùng tái sản xuất cho đến các giải pháp sửa chữa."
-  },
-  {
-    img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/power_tools_res_640x360.webp",
-    title: "Dụng cụ điện cầm tay",
-    description:
-      "Là thương hiệu cung cấp cả dụng cụ cầm tay và phụ kiện hàng đầu thế giới, Bosch đáp ứng mọi yêu cầu khó khăn nhất và cung cấp hiệu suất vượt trội phục vụ cho ngành xây dựng, chế biến gỗ và ngành công nghiệp kim loại."
-  },
-  {
-    img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/aquaeasy_res_640x360.webp",
-    title: "Giải pháp AquaEasy",
-    description:
-      "AquaEasy đang biến đổi ngành nuôi trồng thủy sản từ một nghệ thuật thành một khoa học bằng cách kết nối trực tiếp các nông dân với những chuyên gia nuôi trồng thủy sản xuất sắc nhất. Được hỗ trợ bởi một sự kết hợp độc đáo giữa các cảm biến, trí tuệ nhân tạo và tự động hóa, AquaEasy giúp nông dân đưa ra các quyết định hàng ngày, giảm rủi ro và tăng năng suất tôm."
-  },
-  {
-    img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/bosch_security_and_safety_system_res_640x360.webp",
-    title: "Life Safety Systems",
-    description:
-      "Chúng tôi cung cấp danh mục toàn diện các hệ thống an toàn đáng tin cậy và có khả năng thích ứng trong tương lai – từ bảng điều khiển và máy dò đến các giải pháp phần mềm để nâng cao hiệu quả vận hành. Các giải pháp thông minh dựa trên các công nghệ tiên tiến như AI và cảm biến thông minh để chỉ báo động trong các trường hợp khẩn cấp thực sự. Với khả năng tương thích trên toàn bộ hệ thống, các giải pháp cũng bảo vệ hiệu quả các tài sản của bạn. Các dịch vụ của chúng tôi như công cụ lập kế hoạch hoặc dịch vụ từ xa cho phép tăng cường phạm vi hoạt động và hiệu quả."
-  },
-  {
-    img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/drive_and_control_res_640x360.webp",
-    title: "Kỹ thuật Truyền động & Điều khiển",
-    description:
-      "Bosch Rexroth là một trong những nhà cung cấp hàng đầu thế giới về công nghệ điều khiển và truyền động, đồng thời là đối tác toàn cầu về kỹ thuật máy móc và nhà máy. Chúng tôi tìm tòi và nghiên cứu các giải pháp tạo ra sự chuyển biến đột phá cho máy móc và dịch vụ để giúp khách hàng vươn lên vị thế dẫn đầu."
-  },
-  {
-    img: "https://www.bosch.com.vn/media/vn/products_and_services/20240117_mobility/bbm-keyvisual_fuer_pkw_ohne_headline_overall_rgb_1920x1080-web-optimiert_res_640x360.webp",
-    title: "Giải pháp Mobility",
-    description:
-      "Năng động, an toàn, mang tính kết nối và có thể tùy chỉnh: Đây thường là những yêu cầu chủ yếu khi nhắc đến trải nghiệm lái xe tuyệt vời nhất với xe hai bánh và xe mô tô thể thao. Với công nghệ tiên tiến và phần mềm thông minh, Bosch cung cấp các giải pháp kết nối, hỗ trợ người lái xe, hệ thống truyền động và giải pháp vận chuyển được cá nhân hóa. Tất cả đều đến từ một nguồn duy nhất."
-  },
-  {
-    img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/bgsw_vn_products_and_services_1920x1080_res_640x360.webp",
-    title: "Trung tâm Nghiên cứu và Phát triển Công nghệ",
-    description:
-      "Bosch Global Software Technologies Company Limited là công ty con 100% vốn của Robert Bosch GmbH - một trong những tập đoàn công nghệ và dịch vụ hàng đầu thế giới. BGSW Vietnam là trung tâm phát triển phần mềm đầu tiên của Bosch tại khu vực Đông Nam Á, hiện cung cấp những giải pháp toàn diện cho doanh nghiệp trong các lĩnh vực về Kỹ thuật, Công nghệ thông tin và Kinh doanh."
-  }
+  // {
+  //   img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/automotive_aftermarket_res_640x360.webp",
+  //   title: "Phụ tùng và Thiết bị Ô tô",
+  //   description:
+  //     "Bosch Mobility Aftermarket cung cấp cho các đơn vị sửa chữa và kinh doanh phụ tùng thay thế những giải pháp liên quan đến quy trình xưởng, chẩn đoán và sửa chữa, cũng như nhiều loại phụ tùng thay thế cho các phương tiện vận tải – từ phụ tùng mới, phụ tùng tái sản xuất cho đến các giải pháp sửa chữa."
+  // },
+  // {
+  //   img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/power_tools_res_640x360.webp",
+  //   title: "Dụng cụ điện cầm tay",
+  //   description:
+  //     "Là thương hiệu cung cấp cả dụng cụ cầm tay và phụ kiện hàng đầu thế giới, Bosch đáp ứng mọi yêu cầu khó khăn nhất và cung cấp hiệu suất vượt trội phục vụ cho ngành xây dựng, chế biến gỗ và ngành công nghiệp kim loại."
+  // },
+  // {
+  //   img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/aquaeasy_res_640x360.webp",
+  //   title: "Giải pháp AquaEasy",
+  //   description:
+  //     "AquaEasy đang biến đổi ngành nuôi trồng thủy sản từ một nghệ thuật thành một khoa học bằng cách kết nối trực tiếp các nông dân với những chuyên gia nuôi trồng thủy sản xuất sắc nhất. Được hỗ trợ bởi một sự kết hợp độc đáo giữa các cảm biến, trí tuệ nhân tạo và tự động hóa, AquaEasy giúp nông dân đưa ra các quyết định hàng ngày, giảm rủi ro và tăng năng suất tôm."
+  // },
+  // {
+  //   img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/bosch_security_and_safety_system_res_640x360.webp",
+  //   title: "Life Safety Systems",
+  //   description:
+  //     "Chúng tôi cung cấp danh mục toàn diện các hệ thống an toàn đáng tin cậy và có khả năng thích ứng trong tương lai – từ bảng điều khiển và máy dò đến các giải pháp phần mềm để nâng cao hiệu quả vận hành. Các giải pháp thông minh dựa trên các công nghệ tiên tiến như AI và cảm biến thông minh để chỉ báo động trong các trường hợp khẩn cấp thực sự. Với khả năng tương thích trên toàn bộ hệ thống, các giải pháp cũng bảo vệ hiệu quả các tài sản của bạn. Các dịch vụ của chúng tôi như công cụ lập kế hoạch hoặc dịch vụ từ xa cho phép tăng cường phạm vi hoạt động và hiệu quả."
+  // },
+  // {
+  //   img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/drive_and_control_res_640x360.webp",
+  //   title: "Kỹ thuật Truyền động & Điều khiển",
+  //   description:
+  //     "Bosch Rexroth là một trong những nhà cung cấp hàng đầu thế giới về công nghệ điều khiển và truyền động, đồng thời là đối tác toàn cầu về kỹ thuật máy móc và nhà máy. Chúng tôi tìm tòi và nghiên cứu các giải pháp tạo ra sự chuyển biến đột phá cho máy móc và dịch vụ để giúp khách hàng vươn lên vị thế dẫn đầu."
+  // },
+  // {
+  //   img: "https://www.bosch.com.vn/media/vn/products_and_services/20240117_mobility/bbm-keyvisual_fuer_pkw_ohne_headline_overall_rgb_1920x1080-web-optimiert_res_640x360.webp",
+  //   title: "Giải pháp Mobility",
+  //   description:
+  //     "Năng động, an toàn, mang tính kết nối và có thể tùy chỉnh: Đây thường là những yêu cầu chủ yếu khi nhắc đến trải nghiệm lái xe tuyệt vời nhất với xe hai bánh và xe mô tô thể thao. Với công nghệ tiên tiến và phần mềm thông minh, Bosch cung cấp các giải pháp kết nối, hỗ trợ người lái xe, hệ thống truyền động và giải pháp vận chuyển được cá nhân hóa. Tất cả đều đến từ một nguồn duy nhất."
+  // },
+  // {
+  //   img: "https://www.bosch.com.vn/media/products_and_services/20230719_find_your_way_to_our_solutions/bgsw_vn_products_and_services_1920x1080_res_640x360.webp",
+  //   title: "Trung tâm Nghiên cứu và Phát triển Công nghệ",
+  //   description:
+  //     "Bosch Global Software Technologies Company Limited là công ty con 100% vốn của Robert Bosch GmbH - một trong những tập đoàn công nghệ và dịch vụ hàng đầu thế giới. BGSW Vietnam là trung tâm phát triển phần mềm đầu tiên của Bosch tại khu vực Đông Nam Á, hiện cung cấp những giải pháp toàn diện cho doanh nghiệp trong các lĩnh vực về Kỹ thuật, Công nghệ thông tin và Kinh doanh."
+  // }
 ]
 
 const Stories: StoryProps[] = [

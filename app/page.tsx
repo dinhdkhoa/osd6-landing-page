@@ -1,3 +1,4 @@
+import BoschStats from "@/components/achivements";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -45,12 +46,13 @@ export default function Home() {
           <OurSolutions />
         </div>
         <div className="px-4 md:px-6 md:py-2 lg:p-20  2xl:px-96 3xl:px-[40rem]">
-          <OurStories />
+          {/* <OurStories /> */}
+          <BoschStats />
         </div>
         <div className="px-4 md:px-6 md:py-10 lg:px-20 2xl:px-96 3xl:px-[40rem]">
           <News />
         </div>
-        <ContactSection />
+        {/* <ContactSection /> */}
       </main>
       <Footer />
     </>

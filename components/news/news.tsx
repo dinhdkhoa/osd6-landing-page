@@ -19,7 +19,7 @@ const NewsGrid = ({news} : {news: NewsProps[]}) => {
 const News = () => {
     return (
         <section>
-            <SectionHeader className='mb-10'>Tin tức</SectionHeader>
+            <SectionHeader className='mb-10'>OPEX Activities</SectionHeader>
             <NewsGrid news={Mock.News}/>
         </section>
     )

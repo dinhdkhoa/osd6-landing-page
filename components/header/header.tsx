@@ -26,14 +26,14 @@ const Header = () => {
                         </h2> */}
                         {/* <div className="flex h-full "> */}
                         {/* <IconButton icon={CircleQuestionMark} >Help</IconButton> */}
-                        <Button variant={'link'}>Sản phẩm và dịch vụ</Button>
-                        <Button variant={'link'}>Về công ty</Button>
-                        <Button variant={'link'}>Nghề nghiệp</Button>
+                        <Button variant={'link'}>About us</Button>
+                        <Button variant={'link'}>OPEX</Button>
+                        <Button variant={'link'}>Recruitment</Button>
                     </div>
                 </div>
 
             </header>
-            <h6 className=" pr-4 text-right font-bold md:pr-24 2xl:pr-[25rem] 3xl:pr-[41rem]">GS/OSD6 Landing Page Demo</h6>
+            {/* <h6 className=" pr-4 text-right font-bold md:pr-24 2xl:pr-[25rem] 3xl:pr-[41rem]">GS/OSD6 Landing Page Demo</h6> */}
         </>
 
     )
