@@ -3,7 +3,7 @@ import SectionHeader from '../section-header';
 
 const BoschStats = () => {
     return (
-        <>
+        <section id='achievements'>
             <SectionHeader className='mb-10'>Achivements</SectionHeader>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -36,7 +36,7 @@ const BoschStats = () => {
                 </div>
             </div>
         </div>
-        </>
+        </section>
     );
 };
 

@@ -33,7 +33,6 @@ const Header = () => {
                 </div>
 
             </header>
-            <h6 className=" pr-4 text-right font-bold md:pr-24 2xl:pr-[25rem] 3xl:pr-[41rem]">Slogan Placeholder</h6>
         </>
 
     )

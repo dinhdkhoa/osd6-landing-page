@@ -38,8 +38,11 @@ const Solution = ({description, img, title, imageAlt} : SolutionProps) => {
 const OurSolutions = () => {
     
     return (
-        <section className='flex flex-col gap-10 lg:gap-20' aria-labelledby="solutions-heading">
-            <SectionHeader id="solutions-heading">Highlight of the month</SectionHeader>
+        <section className='flex flex-col gap-10 lg:gap-20' aria-labelledby="solutions-heading" id='opex'>
+            <div>
+                <SectionHeader id="solutions-heading">OPEX Activities</SectionHeader>
+                <p className='pt-2'>Là một thành viên của tập đoàn Bosch, Công ty TNHH Đồ Gia Dụng</p>
+            </div>
             <div className='flex flex-col gap-12 lg:gap-20'>
                 {Mock.Solutions.map((sol, i) => <Solution key={i} {...sol}/>)}
             </div>
