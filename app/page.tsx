@@ -42,15 +42,15 @@ export default function Home() {
         <div className="mb-10">
           <HeroSection />
         </div>
-        <div className="px-4 py-0 md:px-6 md:py-2 xl:p-20 2xl:px-96 3xl:px-[40rem]">
-          <OurSolutions />
-        </div>
         <div className="px-4 md:px-6 md:py-2 lg:p-20  2xl:px-96 3xl:px-[40rem]">
           {/* <OurStories /> */}
           <BoschStats />
         </div>
         <div className="px-4 md:px-6 md:py-10 lg:px-20 2xl:px-96 3xl:px-[40rem]">
           <News />
+        </div>
+        <div className="px-4 py-0 md:px-6 md:py-2 xl:p-20 2xl:px-96 3xl:px-[40rem]">
+          <OurSolutions />
         </div>
         {/* <ContactSection /> */}
       </main>
