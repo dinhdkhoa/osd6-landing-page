@@ -2,6 +2,8 @@ import { ExternalLink } from 'lucide-react'
 import Image from 'next/image'
 import SectionHeader from '../section-header'
 import Mock from '@/lib/mock-data'
+import { Button } from '../ui/button'
+import { AppleCardsCarouselDemo } from '../hero/hero'
 
 export interface SolutionProps {
     imageAlt?: string,
@@ -24,12 +26,16 @@ const Solution = ({description, img, title, imageAlt} : SolutionProps) => {
             width={550}
             height={300}
             unoptimized
-            className='w-full lg:flex-1 2xl:w-1/2 3xl:flex-1'
+            className='w-full lg:flex-1 2xl:w-1/2 3xl:flex-1 shadow-lg'
         />
         <div className='flex flex-col gap-2 md:gap-6 md:px-12 lg:flex-1 lg:gap-8 lg:px-0 2xl:mb-0'>
-            <h3 className='text-2xl font-semibold tracking-wide md:text-3xl lg:text-4xl'>{title}</h3>
+            <div>
+                <h3 className='text-2xl font-semibold tracking-wide'>{title}</h3>
+                <h3 className='text-3xl font-semibold tracking-wide'>Transplan Hub Workshop</h3>
+            </div>
             <p>{description}</p>
-            <SolutionFindOutMoreLink />
+            {/* <SolutionFindOutMoreLink /> */}
+            <Button variant={'secondary'} className='w-1/4 bg-bosch_blue/70 shadow-lg' >See all news</Button>
         </div>
 
     </article>
@@ -38,14 +44,15 @@ const Solution = ({description, img, title, imageAlt} : SolutionProps) => {
 const OurSolutions = () => {
     
     return (
-        <section className='flex flex-col gap-10 lg:gap-20' aria-labelledby="solutions-heading" id='opex'>
+        <section className='flex flex-col ' aria-labelledby="solutions-heading">
             <div>
-                <SectionHeader id="solutions-heading">OPEX Activities</SectionHeader>
-                <p className='pt-2'>Là một thành viên của tập đoàn Bosch, Công ty TNHH Đồ Gia Dụng</p>
+                <SectionHeader id="solutions-heading">Operational Excellence</SectionHeader>
             </div>
-            <div className='flex flex-col gap-12 lg:gap-20'>
+            {/* <div className='flex flex-col gap-12 lg:gap-20'>
                 {Mock.Solutions.map((sol, i) => <Solution key={i} {...sol}/>)}
-            </div>
+            </div> */}
+            <AppleCardsCarouselDemo />
+
         </section>
     )
 }

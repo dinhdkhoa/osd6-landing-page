@@ -27,7 +27,7 @@ const Header = () => {
                         {/* <div className="flex h-full "> */}
                         {/* <IconButton icon={CircleQuestionMark} >Help</IconButton> */}
                         <Button variant={'link'}>About us</Button>
-                        <Button variant={'link'}>OPEX</Button>
+                        {/* <Button variant={'link'}>OPEX</Button> */}
                         <Button variant={'link'}>Recruitment</Button>
                     </div>
                 </div>

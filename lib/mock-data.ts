@@ -5,7 +5,7 @@ import { StoryProps } from "@/components/story-card/story-card"
 const Solutions: SolutionProps[] = [
   {
     img: "https://www.bosch.com.vn/media/vn/products_and_services/20240117_home_appliances/dc_plj_crm_buy_new_dishwasher_content_06_3200x1560_res_640x360.webp",
-    title: "Thiết bị điện gia dụng",
+    title: "Q3 Target: Transparency",
     description:
       "Là một thành viên của tập đoàn Bosch, Công ty TNHH Đồ Gia Dụng BSH (Việt Nam) phân phối chính hãng các thiết bị gia dụng chất lượng cao với công nghệ Chuẩn chất Đức. Mỗi sản phẩm của chúng tôi trước khi rời khỏi nhà máy đều được thử nghiệm và kiểm tra kỹ lưỡng, vì vậy người tiêu dùng có thể hoàn toàn tin tưởng về chất lượng cho cuộc sống hàng ngày."
   },
