@@ -44,7 +44,7 @@ const Solution = ({description, img, title, imageAlt} : SolutionProps) => {
 const OurSolutions = () => {
     
     return (
-        <section className='flex flex-col ' aria-labelledby="solutions-heading" id='opex'>
+        <section className='flex flex-col ' aria-labelledby="solutions-heading">
             <div>
                 <SectionHeader id="solutions-heading">Operational Excellence</SectionHeader>
             </div>

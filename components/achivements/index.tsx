@@ -3,11 +3,11 @@ import SectionHeader from '../section-header';
 
 const BoschStats = () => {
     return (
-        <section id='achievements'>
+        <section>
             <SectionHeader className='mb-10'>Achivements</SectionHeader>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="flex flex-col items-center p-6  py-16 ">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-200">
+            <div className="flex flex-col items-center p-6 py-16 ">
                     <Users className="w-8 h-8 text-blue-600 mb-2" />
                 <div className="text-4xl font-bold text-blue-600">417,900</div>
                 <div className="text-sm text-gray-600 text-center">

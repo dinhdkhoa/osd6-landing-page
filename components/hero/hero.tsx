@@ -23,7 +23,7 @@ const HeroSection = () => {
             width={1600}
             height={900}
             className='md:col-span-1 lg:col-span-3 lg:shrink xl:col-span-7 xl:col-start-1 xl:w-full min-h-[25.5rem]'
-            unoptimized
+            priority
 
           />
           {/* <div className='flex flex-col items-center gap-3 md:ml-14 md:items-start md:gap-4 lg:col-start-4 lg:ml-0 xl:col-span-3 xl:col-start-8'>
@@ -86,24 +86,24 @@ const DummyContent = () => {
 };
 
 const data = [
-  {
-    category: "",
-    title: "Continuous Improvement",
-    src: "/images/image.jfif",
-    content: <DummyContent />,
-  },
-  {
-    category: "",
-    title: "Leadership",
-    src: "/images/image-cH.jfif",
-    content: <DummyContent />,
-  },
-  {
-    category: "",
-    title: "Transparency",
-    src: "/images/image-bv.jfif",
-    content: <DummyContent />,
-  },
+  // {
+  //   category: "",
+  //   title: "Continuous Improvement",
+  //   src: "/images/image.jfif",
+  //   content: <DummyContent />,
+  // },
+  // {
+  //   category: "",
+  //   title: "Leadership",
+  //   src: "/images/image-cH.jfif",
+  //   content: <DummyContent />,
+  // },
+  // {
+  //   category: "",
+  //   title: "Transparency",
+  //   src: "/images/image-bv.jfif",
+  //   content: <DummyContent />,
+  // },
 
   {
     category: "",
@@ -209,7 +209,7 @@ export function BannerStackDemo() {
   ];
 
   return (
-    <div className="mx-auto max-w-md md:min-w-[30rem] space-y-3 p-4 pt-0 bg-transparent">
+    <div className="mx-auto max-w-md md:min-w-[30rem] space-y-3 p-4 bg-transparent">
       {items.map((item) => (
         <BannerCard key={item.title} {...item} />
       ))}
